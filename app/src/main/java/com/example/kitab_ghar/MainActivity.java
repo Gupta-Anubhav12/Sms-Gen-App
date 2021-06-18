@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void MyMessage() {
         String phoneNumber = txt_pNumber.getText().toString().trim();
-        String Message ="Thanks For Ordering Form KitabGhar.Your Tracking ID is :"+ txt_message.getText().toString().trim()+":visit our Website to Track kitabghar.github.io/Kitab_Ghar/track ";
+        String Message ="Thanks For Ordering Form KitabGhar.Your Tracking ID is :"+ txt_message.getText().toString().trim()+":You can track the order at https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx \n for more offers and Punjabi Books please visit us at https://www.onlinekitabghar.in   ";
 
         if( ! phoneNumber.equals("") || ! Message.equals("")) {
         SmsManager smsManager = SmsManager.getDefault();
